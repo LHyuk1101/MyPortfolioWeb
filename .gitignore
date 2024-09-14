@@ -105,6 +105,12 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -211,6 +217,7 @@ Temporary Items
 *.icloud
 
 ### Gradle ###
+.gradle
 **/build/
 !src/**/build/
 
@@ -227,6 +234,10 @@ gradle-app.setting
 .gradletasknamecache
 
 # Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
 
 ### Gradle Patch ###
 # Java heap dump
