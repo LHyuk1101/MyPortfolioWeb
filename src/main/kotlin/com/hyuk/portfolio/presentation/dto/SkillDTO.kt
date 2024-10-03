@@ -1,3 +1,13 @@
 package com.hyuk.portfolio.presentation.dto
 
-class SkillDTO
+import com.hyuk.portfolio.domain.entity.Skill
+
+data class SkillDTO(
+  val name: String,
+  val type: String
+) {
+  constructor(skill: Skill) : this(
+    name = skill.name,
+    type = skill.type.name
+  )
+}
