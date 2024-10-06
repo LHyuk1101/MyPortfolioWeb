@@ -38,7 +38,7 @@ class PresentationServiceTest {
     Mockito.`when`(presentationRepository.getActiveIntroductions())
       .thenReturn(activeIntroductions)
     //when
-    val introductionDTOs = presentationService.getIntroduction()
+    val introductionDTOs = presentationService.getIntroductions()
 
     //then
     assertThat(introductionDTOs).hasSize(DATA_SIZE / 2)

@@ -10,7 +10,7 @@ class ResumeDTO(
   achievements: List<Achievement>,
   skills: List<Skill>
 ) {
-  var experience: List<ExperienceDTO> = experiences.map {
+  var experiences: List<ExperienceDTO> = experiences.map {
     ExperienceDTO(
       title = it.title,
       description = it.description,
