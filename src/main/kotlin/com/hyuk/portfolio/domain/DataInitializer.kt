@@ -125,9 +125,8 @@ class DataInitializer(
     )
     project2.addDetails(
       mutableListOf(
-        ProjectDetail(content = "나그네(Nagne) Ai기반 여행계획 자동화 서비스", url = null,
-          isActive = true),
         ProjectDetail(content = "나그네(Nagne) Ai기반 여행계획 자동화 서비스", url = null, isActive = true),
+        ProjectDetail(content = "나그네(Nagne) Ai기반 여행계획 자동화 서비스 일걸요?", url = null, isActive = true),
           ProjectDetail(content = "Github Repository", url = "https://github.com/nagne-team", isActive = true)
       )
     )
